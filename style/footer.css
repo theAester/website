@@ -1,0 +1,61 @@
+.footer-wrapper > hr{ grid-area: auto / auto / span 1/ span 3;}
+.footer-wrapper > .footer-head{grid-area: auto / auto / span 1 / span 3; font-size:1.3em;}
+.footer-wrapper > .footer-social{grid-area: auto/ auto/ span 1/ span 1; font-size:1.65em;}
+.footer-wrapper > .github::after{
+	content:'';
+	display:inline-block;
+	position:absolute;
+	margin-top:-0.28em;
+	margin-right:8.1em;
+	background-image:url('/res/github.png');
+	background-size:cover;
+	width:3em;
+	height:3em;
+}
+.footer-wrapper > .stack::after{
+        content:'';
+        display:inline-block;
+        position:absolute;
+        margin-top:-0.28em;
+	margin-right:9.5em;
+        background-image:url('/res/stack.png');
+        background-size:cover;
+        width:2em;
+        height:2em;
+}
+.footer-wrapper > .mail::after{
+        content:'';
+        display:inline-block;
+        position:absolute;
+        margin-top:-0.28em;
+        margin-right:15em;
+        background-image:url('/res/email.png');
+        background-size:cover;
+        width:2em;
+        height:2em;
+}
+
+.footer-wrapper > .footer-desc{grid-area: auto / auto / span 1 / span 3; font-size:1em;}
+.footer-wrapper > .footer-date{grid-area: auto / auto / span 1 / span 3; font-size:0.7em;}
+.footer-wrapper{
+	padding: 2em 0;
+	text-align:center;
+	display:grid;
+	color:white;
+	grid-template-columns: 	33.3% 33.3% 33.3%;
+	grid-gap: 3em 0;
+}
+@media only screen and (max-width:1000px){
+	.footer-wrapper{
+		font-size:12px;
+	}
+	.footer-wrapper > .footer-head{
+		font-size:12px;
+	}
+	.footer-wrapper > .footer-desc{
+		font-size:12px;
+	}
+	.footer-wrapper > .footer-date{
+		font-size:9px;
+	}
+}

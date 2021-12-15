@@ -1,0 +1,66 @@
+.form-holder{
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-gap:1em;
+}
+.bigtxt{
+	padding:1.2em;
+	font-size:1.5em;
+}
+form{
+	display:block;
+	margin-top:5em;
+	margin-bottom:7em;
+}
+.form-ta{
+	position:relative;
+	width:90%;
+	height:25em;
+}
+.form-label{
+	font-size:20px;
+}
+input{
+	position:relative;
+	display:block;
+	padding:0.6em;
+	margin-bottom:2.1em;
+	margin-top:0.8em;
+	width:90%;
+}
+.modal{
+	position:fixed;
+	width:30%;
+	height:20%;
+	top:30%;
+	right:calc(35% - 2em);
+	padding:2em;
+	padding-bottom:8em;
+	background-color:white;
+	border:solid red 4px;
+	border-radius:12px;
+}
+.modal::before{
+	content: '';
+	background-image: url('/res/danger.jpeg');
+	background-size:cover;
+	width:3.4em;
+	height:3em;
+	position:absolute;
+	top:0.4em;
+	right:calc(50% - 1.5em);
+}
+@media only screen and (min-height:1200px){
+	.modal{
+		padding-bottom:2em;
+		height:15%;
+	}
+}
+.mybutt{
+	font-size:1.6em;
+	padding:0.6em 1.4em;
+}
+h4{
+	text-align:center;
+	font-size:1.7rem;
+}

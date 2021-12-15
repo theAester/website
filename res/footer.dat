@@ -1,0 +1,23 @@
+<div class="container">
+	<div class="footer-wrapper">
+		<div class="footer-head">
+			<span class="footer-text">شبکه های اجتماعی</span>
+		</div>
+		<div class="footer-social center github">
+			<a class="footer-text" href="https://github.com/theAester">theAester</a>
+		</div>
+		<div class="footer-social center stack">
+			<a class="footer-text" href="https://stackoverflow.com/users/11374507/hirad-davari">hirad-davari</a>
+		</div>
+		<div class="footer-social center mail">
+			<span class="footer-text">hiradcodes@yahoo.com</span>
+		</div>
+		<hr style="width:100%;">
+		<div class="footer-desc">
+			این سایت رزومه برای تمرین ۸ درس کارگاه کامپیوتر ساخته شده و رزومه ی اصلی و رسمی من نیست. تمام طراحی و پیادده  سازی این ویسایت توسط هیراد داوری انجام  شده.
+		</div>
+		<div class="footer-date">
+			24/8/1400 ~ 2002/12/15
+		</div>
+	</div>
+</div>

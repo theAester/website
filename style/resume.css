@@ -1,0 +1,40 @@
+.card-holder{
+	display:grid;
+	grid-template-columns:repeat(auto-fill,minmax(max(15em,100%/4),1fr));
+	position:relative;
+	padding:2em;
+	content-align:center;
+}
+.card{
+	display:inline-block;
+	border:solid black 2px;
+	border-radius:10px;
+	background-color:#EEE;
+	padding:1em;
+	margin: 1em;
+}
+.card-icon{
+	position:relative;
+	width:100%;
+	padding-bottom:100%;
+	border-radius:50%;
+	border:solid black 2px;
+	background-color:white;
+}
+.card-desc{
+	text-align:center;
+	padding-top:1em;
+}
+.art>p{
+	font-size:1.5em;
+}
+.art{
+	border-right:solid grey 3px;
+	padding-right:1.3em;
+}
+.art-ul{
+	font-size:1.2em;
+}
+.art-li{
+	margin:0.7em;
+}

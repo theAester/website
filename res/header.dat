@@ -1,0 +1,16 @@
+<div class="header-wrapper">
+	<span class="header-name center">
+		هیراد داوری
+	</span>
+	<div class="nav">
+		<a href="/" class="nav-icon intro center">خانه</a>
+		<div href="resume/" class="nav-icon resume center">معرفی و رزومه
+			<ul class="nav-dropdown hide">
+				<li class="nav-dropdown-item"><a href="/aboutme/#resume" class="nav-text">رزومه</a></li>
+				<li class="nav-dropdown-item"><a href="/aboutme/#abilities" class="nav-text">توانایی ها</a></li>
+				<li class="nav-dropdown-item"><a href="/aboutme/#works" class="nav-text">دستآورد ها</a></li>
+			</ul>
+		</div>
+		<a href="/contact/" class="nav-icon contact center">تماس با من</a>
+	</div>
+</div>
